@@ -110,9 +110,6 @@ TARGET_SCREEN_HEIGHT ?= 1920
 PRODUCT_PACKAGES += \
     bootanimation.zip
 
-# Apps
--include vendor/lineage/config/apps.mk
-
 # Lineage packages
 PRODUCT_PACKAGES += \
     LineageParts \
@@ -217,3 +214,4 @@ include vendor/lineage/config/version.mk
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 -include vendor/lineage/config/partner_gms.mk
+-include vendor/lineage/config/apps.mk
